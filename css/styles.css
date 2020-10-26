@@ -184,7 +184,7 @@ left:0;
 bottom:-1px;
 width: 48px;
 height: 4px;
-background: var:(--web-word-color);
+background: #2196F3;
 border-radius: 2px;
 }
 .header-contacts > svg {
