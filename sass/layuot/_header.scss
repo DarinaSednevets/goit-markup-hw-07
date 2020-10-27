@@ -25,7 +25,7 @@
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
-  color: var(--main-text-color);
+  color: $main-text-color;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -37,10 +37,10 @@
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
-  color: var(--studio-word-color);
+  color: $studio-word-color;
 }
 .logo-web {
-  color: var(--web-word-color);
+  color: $web-word-color;
 }
 .navigation-list-item:not(:last-child) {
   margin-right: 50px;
@@ -91,7 +91,7 @@
 }
 .header-link:hover,
 .header-link:focus {
-  color: var(--header-link-hover-f-a);
+  color: $header-link-hover-f-a;
 }
 .header-contacts {
   color: #757575;
@@ -106,7 +106,7 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-contacts:hover > svg {
-  fill: var(--header-link-hover-f-a);
+  fill: $header-link-hover-f-a;
 }
 .header .tel,
 .header .mail {
@@ -117,5 +117,5 @@
 .header-contacts:hover,
 .header-contacts:focus,
 .header-contacts:active {
-  color: var(--header-link-hover-f-a);
+  color: $header-link-hover-f-a;
 }
