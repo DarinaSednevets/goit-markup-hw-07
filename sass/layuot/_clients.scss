@@ -2,7 +2,6 @@
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
 .clients-title {
   margin-top: 0;
   margin-bottom: 50px;
@@ -13,7 +12,6 @@
   letter-spacing: 0, 03em;
   text-align: center;
 }
-
 .clients-list {
   display: flex;
   justify-content: space-between;
@@ -29,20 +27,17 @@
   transition-property: all;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.clients-logo-link:hover {
-  border-color: #2196f3;
-}
-
-.clients-logo-link > svg {
-  align-self: center;
-  fill: #afb1b8;
-  transition-property: all;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.clients-logo-link:hover > svg {
-  fill: #2196f3;
+  &:hover {
+    border-color: #2196f3;
+  }
+  & > svg {
+    align-self: center;
+    fill: #afb1b8;
+    transition-property: all;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  &:hover > svg {
+    fill: #2196f3;
+  }
 }

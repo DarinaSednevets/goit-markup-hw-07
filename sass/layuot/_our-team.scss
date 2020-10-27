@@ -10,10 +10,10 @@
   transition-property: all;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.team-social-link:hover {
-  background-color: #2196f3;
+  &:hover {
+    background-color: #2196f3;
+  }
 }
 
 .team-social-link > svg {
@@ -67,7 +67,6 @@
 }
 .position {
   margin-top: 10px;
-
   font-weight: 400;
   font-size: 16px;
   line-height: 1.188;
