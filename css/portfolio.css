@@ -101,7 +101,7 @@ button:focus {
   justify-content: center;
 }
 
-.filter-li {
+.filter-li:not(:last-child) {
   margin-right: 8px;
 }
 
